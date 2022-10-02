@@ -1,0 +1,117 @@
+.wrapper {
+    text-align: left;
+}
+.hyperlinks {
+    text-align: left;
+    background-color: lightcyan;
+    border-bottom: 10px solid white;
+    margin: auto;
+}
+.tabletask{
+	order: 1;
+}
+.tabletask {
+    width:100%;
+    font-size:14px;
+    font-family: sans-serif;
+    font-style:normal;
+    border:3px solid black;
+    border-collapse: collapse;
+    background-color: thistle;
+  }
+  tbody tr:nth-child(odd) {
+    background-color:mediumstateblue;/* фон нечетных строк */
+  }
+
+  tbody tr:nth-child(even) {
+
+    background-color:blueviolet;/* фон четных строк */
+
+  }
+  th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+header {
+    text-align: center;
+    letter-spacing: 1px;
+    background: cadetblue;
+    color: black;
+}
+.logo {
+    width: 128px;
+    float: left;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+h1, h2 {
+    text-align: center;
+    font-size: 50px;
+    color: darkkhaki;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    flex-direction: column;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: aqua;
+    border-bottom: 20px solid white;
+}
+.menu a {
+    color: black;
+}
+.content {
+    max-width: 960px;
+    text-align: left;
+    margin: auto;
+}
+form {
+    border-top: 10px solid white;
+    background-color: tan;
+    color: black;
+}
+footer {
+    font-size: 20px;
+    background-color: linen;
+    text-align: left;
+    width: 100%;
+}
+.ft {
+    display: flex;
+    flex-direction: column;
+}
+
+.ft > .f {order: 1; } 
+.ft > .t {order: 2; } 
+@media screen and (min-width: 768px){
+  .ft {
+    display: flex;
+    flex-direction: column;
+   }
+
+  .ft > .f {order: 2; } 
+  .ft > .t {order: 1; }
+  .tabletask{
+    order: 0;
+    font-size:25px;
+  }
+  .menu{
+    flex-direction: row;
+    font-size: 20px;
+    margin: auto;
+    text-align: left;
+    max-width: 960px;
+    background-color: aqua;
+    border-bottom: 20px solid white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+}
