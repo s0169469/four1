@@ -2,13 +2,14 @@
     text-align: left;
 }
 .hyperlinks {
+    order:2;
     text-align: left;
     background-color: lightcyan;
     border-bottom: 10px solid white;
     margin: auto;
 }
 .tabletask{
-	order: 1;
+	order: 4;
 }
 .tabletask {
     width:100%;
@@ -56,6 +57,7 @@ a {
     text-decoration: none;
 }
 .menu {
+	order:1;
     flex-direction: column;
     display: flex;
     flex-flow: column wrap;
@@ -86,16 +88,16 @@ footer {
     flex-direction: column;
 }
 
-.ft > .f {order: 1; } 
-.ft > .t {order: 2; } 
+.ft > .f {order: 4; } 
+.ft > .t {order: 3; } 
 @media screen and (min-width: 768px){
   .ft {
     display: flex;
     flex-direction: column;
    }
 
-  .ft > .f {order: 2; } 
-  .ft > .t {order: 1; }
+  .ft > .f {order: 4; } 
+  .ft > .t {order: 3; }
   .tabletask{
     order: 0;
     font-size:25px;
