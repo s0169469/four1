@@ -73,6 +73,7 @@ a {
     margin: auto;
 }
 form {
+	order: 3;
     border-top: 10px solid white;
     background-color: tan;
     color: black;
@@ -93,6 +94,7 @@ footer {
 @media screen and (min-width: 768px){
   .ft > .f {order: 2; } 
   .ft > .t {order: 1; }
+	
   .ft {
     display: flex;
     flex-direction: column;
