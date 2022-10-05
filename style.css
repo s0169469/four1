@@ -91,6 +91,8 @@ footer {
 .ft > .f {order: 4; } 
 .ft > .t {order: 3; } 
 @media screen and (min-width: 768px){
+  .ft > .f {order: 2; } 
+  .ft > .t {order: 1; }
   .ft {
     display: flex;
     flex-direction: column;
